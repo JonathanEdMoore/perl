@@ -1,0 +1,9 @@
+#!/usr/bin/perl
+
+use Math::Trig;
+
+$radius = 12.5;
+
+$circumference = (2* pi) * $radius;
+
+print $circumference;
