@@ -3,6 +3,4 @@
 $num1 = <STDIN>;
 $num2 = <STDIN>;
 
-$product = $num1 * $num2;
-
-print $product;
+print $num1 * $num2;
