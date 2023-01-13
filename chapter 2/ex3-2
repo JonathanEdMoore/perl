@@ -1,0 +1,14 @@
+#!/usr/bin/perl
+
+use Math::Trig;
+
+$radius = <STDIN>;
+
+if ($radius < 0) {
+  $circumference = 0;
+}
+else {
+  $circumference = (2* pi) * $radius;
+}
+
+print $circumference;
