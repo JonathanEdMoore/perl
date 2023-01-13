@@ -3,6 +3,4 @@
 $string = <STDIN>;
 $num = <STDIN>;
 
-$output = $string x $num;
-
-print $output;
+print $string x $num;
