@@ -1,0 +1,8 @@
+#!/usr/bin/perl
+
+$string = <STDIN>;
+$num = <STDIN>;
+
+$output = $string x $num;
+
+print $output;
